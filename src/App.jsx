@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 
 function App() {
   const [backendUrl, setBackendUrl] = useState(import.meta.env.VITE_BACKEND_URL || 'https://0d24kmb4-8000.use.devtunnels.ms/')
